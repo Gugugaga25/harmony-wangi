@@ -1,0 +1,380 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: "Segoe UI", "Inter", sans-serif;
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            color: white;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        /* ===================================
+            Navbar
+        =================================== */
+        .navbar {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+        background-color: black;
+        padding: 10px 0;
+        }
+
+        .navbar-container {
+        width: 90%;
+        margin: auto;
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        }
+
+        .logo img {
+        height: 30px;
+        width: auto;
+        object-fit: contain;
+        }
+
+        .nav-link {
+        display: flex;
+        gap: 20px;
+        }
+
+        .nav-link a {
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        padding: 8px 12px;
+        font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+        font-weight: 500;
+        letter-spacing: -0.01em;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        }
+
+        .nav-link a:hover {
+        background-color: #333;
+        border-radius: 4px;
+        transition: all 0.2s ease;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            margin-bottom: 15px;
+            padding: 90px 0;
+        }
+        
+        .header-text {
+            flex: 1;
+        }
+        
+        .header h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            line-height: 0.9;
+            margin-bottom: 10px;
+        }
+        
+        .header .subtitle {
+            font-size: 1.5rem;
+            font-weight: 400;
+            opacity: 0.9;
+        }
+        
+        .product-image {
+            flex: 1;
+            text-align: center;
+            min-height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            border: 2px dashed rgba(255, 255, 255, 0.2);
+        }
+        
+        .image-placeholder {
+            color: rgba(255, 255, 255, 0.4);
+            font-size: 1rem;
+            text-align: center;
+        }
+        
+        .pricelist-section {
+            margin-bottom: 50px;
+        }
+        
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .price-table {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            overflow: hidden;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+        }
+        
+        .table-header {
+            display: grid;
+            grid-template-columns: 2fr 80px 2fr;
+            background: rgba(255, 255, 255, 0.2);
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+        
+        .header-cell {
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .jml-header {
+            background: rgba(255, 255, 255, 0.3);
+            font-weight: 700;
+            font-size: 1.2rem;
+            border-left: 1px solid rgba(255, 255, 255, 0.2);
+            border-right: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .price-row {
+            display: grid;
+            grid-template-columns: 2fr 80px 2fr;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            transition: background 0.3s ease;
+        }
+        
+        .price-row:hover {
+            background: rgba(255, 255, 255, 0.05);
+        }
+        
+        .price-row:last-child {
+            border-bottom: none;
+        }
+        
+        .size-section {
+            padding: 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0;
+        }
+        
+        .price-cell {
+            text-align: center;
+            padding: 10px;
+        }
+        
+        .price-cell h4 {
+            font-size: 0.9rem;
+            margin-bottom: 8px;
+            opacity: 0.8;
+            font-weight: 500;
+        }
+        
+        .price {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #ffffff;
+        }
+        
+        .quantity-cell {
+            background: rgba(255, 255, 255, 0.15);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 1.8rem;
+            border-left: 1px solid rgba(255, 255, 255, 0.2);
+            border-right: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .aroma-section {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 40px 20px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+        }
+        
+        .aroma-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .aroma-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .aroma-list ul {
+            list-style: none;
+        }
+        
+        .aroma-list li {
+            font-size: 1.3rem;
+            padding: 8px 0;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .aroma-list li::before {
+            content: '●';
+            color: #ffd700;
+            font-size: 1.5rem;
+        }
+
+        /* ===================================
+            Footer
+        =================================== */
+        footer {
+        background: linear-gradient(to top, #0a0a0a, #151515); /* Gradasi footer lebih gelap */
+        color: #c0c0c0; /* Warna teks footer */
+        padding: 50px 20px 30px;
+        border-top: 1px solid rgba(255, 255, 255, 0.04); /* Border top lebih soft */
+        }
+
+        .footer-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between; /* Menyebar elemen kiri dan kanan */
+        align-items: flex-start; /* Konten align ke atas */
+        flex-wrap: wrap; /* Memungkinkan wrap jika layar kecil */
+        gap: 30px; /* Jarak antara kiri dan kanan */
+        }
+
+        /* Styling untuk iframe peta */
+        .footer-left iframe {
+        width: 100%; /* Membuat peta mengisi lebar .footer-left */
+        max-width: 450px; /* Batas maksimal lebar peta, sesuaikan dengan desain Anda */
+        height: 300px; /* Tinggi peta, sesuaikan */
+        border-radius: 8px; /* Opsional: memberi sedikit lengkungan pada sudut peta */
+        box-shadow: 0 4px 10px rgba(0,0,0,0.15); /* Opsional: memberi bayangan halus */
+        border: 1px solid rgba(255, 255, 255, 0.1); /* Opsional: border tipis jika diinginkan */
+        }
+
+        .footer-right {
+        flex: 1.5; /* Memberi lebih banyak ruang untuk sisi kanan (teks) */
+        display: flex;
+        flex-direction: row; /* Menyusun info perusahaan dan medsos secara vertikal */
+        justify-content: space-between;
+        align-items: flex-start; /* Meratakan konten ke kiri dalam blok ini */
+        gap: 20px; /* Jarak antara info perusahaan dan media sosial */
+        }
+
+        .company-info {
+        flex-grow: 1; /* Memungkinkan info perusahaan mengambil ruang yang tersedia */
+        /* text-align: left; sudah diatur sebelumnya */
+        }
+
+        .company-info h3 {
+        font-size: 1.5em;
+        margin-bottom: 12px;
+        color: #e0e0e0;
+        font-family: "Playfair Display", serif;
+        text-align: left; /* Pastikan teks rata kiri */
+        }
+
+        .company-info p {
+        line-height: 1.6;
+        font-size: 0.9em;
+        color: #999999;
+        text-align: left; /* Pastikan teks rata kiri */
+        }
+
+        .social-media {
+        flex-shrink: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        }
+
+        .social-media a {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: #a0a0a0;
+        text-decoration: none;
+        transition: color 0.3s ease, transform 0.3s ease;
+        }
+
+        .social-media a i {
+        font-size: 20px;
+        width: 20px;
+        text-align: center;
+        }
+
+        .social-media a span {
+        font-size: 0.95em;
+        line-height: 1.2;
+        }
+
+        .social-media a:hover {
+        color: #e0e0e0;
+        transform: scale(1.03);
+        }
+
+        .copyright {
+        width: 100%;
+        text-align: center;
+        font-size: 0.85em;
+        color: #777777;
+        margin-top: 40px;
+        padding-top: 20px;
+        border-top: 1px solid rgba(255, 255, 255, 0.04);
+        }
+        
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                text-align: center;
+                gap: 20px;
+            }
+            
+            .header h1 {
+                font-size: 2.5rem;
+            }
+            
+            .section-title {
+                font-size: 2rem;
+            }
+            
+            .aroma-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
+            .table-header, .price-row {
+                font-size: 0.9rem;
+            }
+            
+            .quantity-cell {
+                font-size: 1.4rem;
+            }
+            
+            .price-table {
+                margin: 0 -10px;
+            }
+        }
