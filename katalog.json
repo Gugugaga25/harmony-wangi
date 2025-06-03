@@ -308,17 +308,17 @@
     "gender": "wanita"
   },
   {
-    "name": "Paco Rabanne Lucky",
+    "name": "Paco Rabane Lucky",
     "description": "Aroma segar dan cerah dengan ginger, lemon, dan woody notes.",
     "category": "fresh",
-    "image": "katalog/paco rabbanne lucky.jpeg",
+    "image": "katalog/paco rabbane lucky.jpeg",
     "gender": "pria"
   },
   {
     "name": "Paco Rabanne Invictus",
     "description": "Aroma segar dan maskulin dengan grapefruit, bay leaf, dan ambergris.",
     "category": "fresh",
-    "image": "katalog/paco rabbane lucky.jpeg",
+    "image": "katalog/paco rabbane invictus.jpeg",
     "gender": "pria"
   },
   {
