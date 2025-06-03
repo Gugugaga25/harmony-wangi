@@ -1,50 +1,50 @@
 [
     {
         "id": 1,
-        "name": "Jihan",
-        "avatar": "J",
-        "date": "2 hari lalu",
+        "name": "harda rikki",
+        "avatar": "H",
+        "date": "2 tahun lalu",
         "rating": 5,
-        "text": "Produk sangat bagus, kualitas premium dan pengiriman cepat. Highly recommended!"
+        "text": "Gaperlu jauh-jauh ke karawang atau cikampek buat beli parfum, di purwasari udah ada. untuk parfumnya banyak macamnya buat cowo dan cewe!"
     },
     {
         "id": 2,
-        "name": "Budi",
-        "avatar": "B",
-        "date": "5 hari lalu",
-        "rating": 4,
-        "text": "Harumnya tahan lama dan kualitas produk sangat memuaskan. Worth it untuk dibeli!"
+        "name": "Wisnoe Broto",
+        "avatar": "W",
+        "date": "1 tahun lalu",
+        "rating": 5,
+        "text": "Ga usah jauh2 nyari Parfum kualitas premium, dimari juga ada.. untuk newbie dibei banyak pilihan. Mantap lah!"
     },
     {
         "id": 3,
-        "name": "Sari",
-        "avatar": "S",
-        "date": "1 minggu lalu",
+        "name": "Dianti",
+        "avatar": "D",
+        "date": "2 tahun lalu",
         "rating": 5,
-        "text": "Packaging cantik, produk original, dan pelayanan customer service sangat ramah."
+        "text": "Sukaaa bangett...Wangi nya tahan lama, murah poll."
     },
     {
         "id": 4,
-        "name": "Dewa",
+        "name": "Devi safitri",
         "avatar": "D",
-        "date": "3 hari lalu",
+        "date": "1 tahun lalu",
         "rating": 4,
-        "text": "Sesuai ekspektasi, aromanya wangi dan tidak menyengat. Pasti beli lagi!"
+        "text": "Parfume nya tahan lamaa bangeeet beda sama parfume di toko-toko lain. Pelayanannya ramah banget meski rumah jauh beli parfumenya tetep disini!"
     },
     {
         "id": 5,
-        "name": "Ani",
+        "name": "Ardeti",
         "avatar": "A",
-        "date": "4 hari lalu",
+        "date": "2 tahun lalu",
         "rating": 5,
-        "text": "Produk terbaik! Kualitas premium dengan harga yang reasonable. Terima kasih!"
+        "text": "Wangi-wangi parfumnya mewah banget tapi harganya ramah di kantong. Recommended deh beli parfum disini"
     },
     {
         "id": 6,
-        "name": "Rina",
-        "avatar": "R",
-        "date": "6 hari lalu",
+        "name": "Zilham",
+        "avatar": "Z",
+        "date": "2 tahun lalu",
         "rating": 4,
-        "text": "Fast delivery, kemasan aman, dan produk sesuai deskripsi. Recommended seller!"
+        "text": "Mantep banget sih, langsung ke toko biar sesuai selera"
     }
 ]
