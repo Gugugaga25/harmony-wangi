@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Harmony Wangi</title>
+  <link rel="stylesheet" href="katalog.css" />
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a class="logo" href="index.html">
+        <img src="image/harmony-white.png" alt="Harmony Wangi logo" />
+      </a>
+      <div class="nav-link">
+        <a href="about_us.html">About</a>
+        <a href="index.html#product">Product</a>
+        <a href="index.html#contact-section">Contact Us</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main -->
+  <main class="main-content">
+    <h1 class="title">Katalog Parfum</h1>
+    <p class="subtitle">Koleksi parfum terbaik untukmu</p>
+
+    <div class="search-section">
+      <input type="text" class="search-bar" id="searchInput" placeholder="Cari parfum berdasarkan nama atau aroma..." />
+    </div>
+
+    <div class="categories-section">
+      <div class="gender-filters">
+        <button class="gender-filter active" data-gender="all">SEMUA</button>
+        <button class="gender-filter" data-gender="pria">PRIA</button>
+        <button class="gender-filter" data-gender="wanita">WANITA</button>
+      </div>
+
+      <div class="categories">
+        <button class="category active" data-category="all">ALL VARIANT</button>
+        <button class="category" data-category="fresh">FRESH</button>
+        <button class="category" data-category="woody">WOODY</button>
+        <button class="category" data-category="oriental">ORIENTAL</button>
+        <button class="category" data-category="aquatic">AQUATIC</button>
+        <button class="category" data-category="sweet">SWEET</button>
+        <button class="category" data-category="floral">FLORAL</button>
+      </div>
+    </div>
+
+    <div class="products-grid" id="productsGrid"></div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.9696277492126!2d107.40774477362469!3d-6.397915493592691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e697330ad196ded%3A0x5c07140e25e671a6!2sHarmony%20Wangi!5e0!3m2!1sid!2sid!4v1748871744970!5m2!1sid!2sid" 
+        width="400"
+        height="200"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+
+      <div class="footer-right">
+        <div class="company-info">
+          <h3>Harmony Wangi</h3>
+          <p>
+            Griya Panorama Indah, Blk. A2 No.24, <br />
+            Purwasari, Karawang, Jawa Barat 41373
+          </p>
+        </div>
+
+        <div class="social-media">
+          <a href="https://maps.app.goo.gl/waVHNyRjVYbvtvqH7" target="_blank">
+            <i class="fa-solid fa-map-location-dot"></i><span>Lokasi kami</span>
+          </a>
+          <a href="https://instagram.com/harmonywangi" target="_blank">
+            <i class="fa-brands fa-instagram"></i><span>@harmonywangi</span>
+          </a>
+          <a href="https://wa.me/6281908212974?text=Halo,%20saya%20tertarik%20dengan%20produk%20Harmony%20Parfum." target="_blank">
+            <i class="fa-brands fa-whatsapp"></i><span>Kontak Kami</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <p>© <span id="currentYear"></span> Harmony Parfum. Hak Cipta Dilindungi.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("currentYear").textContent = new Date().getFullYear();
+  </script>
+  <script src="katalog.js"></script>
+</body>
+</html>

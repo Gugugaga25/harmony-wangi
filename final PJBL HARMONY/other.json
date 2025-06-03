@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Dupa",
+    "category": "dupa",
+    "gender": "dupa",
+    "image": "katalog/dupaa.jpeg"
+  },
+  {
+    "name": "Bukhur",
+    "category": "bukhr",
+    "gender": "bukhr",
+    "image": "katalog/bukhr.jpeg"
+  }
+]

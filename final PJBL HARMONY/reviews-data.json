@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Jihan",
+        "avatar": "J",
+        "date": "2 hari lalu",
+        "rating": 5,
+        "text": "Produk sangat bagus, kualitas premium dan pengiriman cepat. Highly recommended!"
+    },
+    {
+        "id": 2,
+        "name": "Budi",
+        "avatar": "B",
+        "date": "5 hari lalu",
+        "rating": 4,
+        "text": "Harumnya tahan lama dan kualitas produk sangat memuaskan. Worth it untuk dibeli!"
+    },
+    {
+        "id": 3,
+        "name": "Sari",
+        "avatar": "S",
+        "date": "1 minggu lalu",
+        "rating": 5,
+        "text": "Packaging cantik, produk original, dan pelayanan customer service sangat ramah."
+    },
+    {
+        "id": 4,
+        "name": "Dewa",
+        "avatar": "D",
+        "date": "3 hari lalu",
+        "rating": 4,
+        "text": "Sesuai ekspektasi, aromanya wangi dan tidak menyengat. Pasti beli lagi!"
+    },
+    {
+        "id": 5,
+        "name": "Ani",
+        "avatar": "A",
+        "date": "4 hari lalu",
+        "rating": 5,
+        "text": "Produk terbaik! Kualitas premium dengan harga yang reasonable. Terima kasih!"
+    },
+    {
+        "id": 6,
+        "name": "Rina",
+        "avatar": "R",
+        "date": "6 hari lalu",
+        "rating": 4,
+        "text": "Fast delivery, kemasan aman, dan produk sesuai deskripsi. Recommended seller!"
+    }
+]

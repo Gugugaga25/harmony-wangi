@@ -1,0 +1,43 @@
+{
+  "priceList": [
+    {
+      "quantity": "1",
+      "size500ml": {
+        "standard": "Rp23.500",
+        "premium": "Rp28.000"
+      },
+      "size2lt": {
+        "standard": "Rp23.500",
+        "premium": "Rp28.000"
+      }
+    },
+    {
+      "quantity": "6",
+      "size500ml": {
+        "standard": "Rp22.000",
+        "premium": "Rp26.500"
+      },
+      "size2lt": {
+        "standard": "Rp23.500",
+        "premium": "Rp28.000"
+      }
+    },
+    {
+      "quantity": "12",
+      "size500ml": {
+        "standard": "Rp20.000",
+        "premium": "Rp24.500"
+      },
+      "size2lt": {
+        "standard": "Rp23.500",
+        "premium": "Rp28.000"
+      }
+    }
+  ],
+  "aromaVariants": [
+    ["Black to Pink", "Lavender"],
+    ["Sakura", "Downny"],
+    ["Pylux", "Lily"],
+    ["Akasia", "Blossom"]
+  ]
+}
